@@ -1,0 +1,10 @@
+/* Other palette colors: #555B6E, #BEE3DB, #FAF9F9, #FFD6BA */
+
+body { /* Note that these changes apply to everything within the body tag */
+    background-color: #89B0AE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: #faf9f9;
+    text-align: center;
+}
