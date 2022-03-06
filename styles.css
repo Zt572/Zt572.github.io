@@ -4,6 +4,20 @@ body { /* Note that these changes apply to everything within the body tag */
     background-color: #89B0AE;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.assignment {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    background-color: #7fa19f;
+}
+
+.assignment img {
+    width: 200px;
+    padding: 15px;
+}
+
 h1 {
     color: #faf9f9;
     text-align: center;
