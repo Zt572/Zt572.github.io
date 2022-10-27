@@ -14,18 +14,19 @@ body { /* Note that these changes apply to everything within the body tag */
     width: 21%;
     padding: 20px;
     margin: 10px;
-    font-size: larger;
+    font-size: 1.5vw;
     background-color: #6bb6b1;
     border-radius: 18px;
 }
 
 .assignment img {
-    width: 200px;
+    width: 65%;
     padding: 5px;
     margin: auto;
     border: 3px solid #c8f7ed;
     border-radius: 9px;
     display: block;
+
 }
 
 .assignment img:hover{
@@ -40,6 +41,9 @@ h1 {
 
 h2 {
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 a {
@@ -53,4 +57,17 @@ a:hover {
 
 p {
     color:#faf9f9 ;
+}
+
+/* The following CSS groups handle expanding text of assignments on hover */
+span.long-desc {
+    display: none;
+}
+
+.assignment:hover span.short-desc {
+    display: none;
+}
+
+.assignment:hover span.long-desc {
+    display: block;
 }
